@@ -45,6 +45,7 @@ width= 5.0
 height= 0.0
 area= 0.0
 
+
 NOTE: All methods should be defined as public NOT public static.
 
 NOTE: In total, you have to write 5 methods and 2 constructors.
