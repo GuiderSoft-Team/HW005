@@ -33,7 +33,8 @@ public class Wall {
             this.heigth = heigth;
         }
     }
-    public double getArea(){
-        return width*heigth;
+
+    public double getArea() {
+        return width * heigth;
     }
 }
