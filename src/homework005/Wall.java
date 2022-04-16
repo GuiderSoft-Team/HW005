@@ -22,18 +22,16 @@ public class Wall {
 
     public void setWidth(double width) {
         if (width < 0) {
-            width = 0.0;
-            this.width = width;
+            width = 0;
         }
+        this.width = width;
     }
-
     public void setHeigth(double heigth) {
         if (heigth < 0) {
-            heigth = 0.0;
-            this.heigth = heigth;
+            heigth = 0;
         }
+        this.heigth = heigth;
     }
-
     public double getArea() {
         return width * heigth;
     }
